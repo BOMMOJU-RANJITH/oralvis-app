@@ -102,7 +102,7 @@ cd backend
 
 node index.js
 
-Frontend
+* Frontend
 
 cd frontend
 
