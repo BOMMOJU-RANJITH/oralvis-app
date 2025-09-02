@@ -100,7 +100,7 @@ Rename .env.example to .env and fill in your actual values.
 
 cd backend
 
-* node index.js
+node index.js
 
 Frontend
 
