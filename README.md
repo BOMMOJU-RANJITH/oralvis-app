@@ -116,6 +116,6 @@ Frontend will run on http://localhost:5173 (default for Vite)
 # Login Credentials
 Role	Email	Password
 
-Technician	technician@example.com	tech123
+Technician	tech@oralvis.com	tech123
 
-Dentist	dentist@example.com	dentist123
+Dentist	dentist@oralvis.com	dentist123
