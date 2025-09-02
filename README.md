@@ -56,16 +56,23 @@ ensure backend running(only if it is sleeping) by reloading https://oralvis-back
 # Follow these steps to set up the project on your local machine.
 
 1. Clone the repository
+   
 git clone https://github.com/BOMMOJU-RANJITH/oralvis-app.git
+
 cd oralvis-app
 
-2. Install dependencies
+3. Install dependencies
+4. 
 Backend
+
 cd backend
+
 npm install
 
 Frontend
+
 cd ../frontend
+
 npm install
 
 3. Set up environment variables
@@ -73,6 +80,7 @@ npm install
 Create a .env file in both backend and frontend folders using the .env.example template.
 
 backend/.env.example
+
 PORT=5000
 JWT_SECRET=your_jwt_secret_key
 CLOUDINARY_CLOUD_NAME=your_cloud_name
@@ -81,17 +89,21 @@ CLOUDINARY_API_SECRET=your_api_secret
 DB_URL=your_database_url
 
 frontend/.env.example
+
 VITE_API_BASE_URL=http://localhost:5000
 
 
 Rename .env.example to .env and fill in your actual values.
 
 4. Start the servers
+5. 
 Backend
+
 cd backend
 node index.js
 
 Frontend
+
 cd frontend
 npm run dev
 
@@ -102,5 +114,7 @@ Frontend will run on http://localhost:5173 (default for Vite)
 
 # Login Credentials
 Role	Email	Password
+
 Technician	technician@example.com	tech123
+
 Dentist	dentist@example.com	dentist123
