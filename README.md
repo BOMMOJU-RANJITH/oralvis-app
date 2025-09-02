@@ -61,15 +61,15 @@ git clone https://github.com/BOMMOJU-RANJITH/oralvis-app.git
 
 cd oralvis-app
 
-3. Install dependencies
-4. 
-Backend
+2. Install dependencies
+   
+* Backend
 
 cd backend
 
 npm install
 
-Frontend
+*Frontend
 
 cd ../frontend
 
@@ -96,15 +96,16 @@ VITE_API_BASE_URL=http://localhost:5000
 Rename .env.example to .env and fill in your actual values.
 
 4. Start the servers
-5. 
-Backend
+* Backend
 
 cd backend
-node index.js
+
+* node index.js
 
 Frontend
 
 cd frontend
+
 npm run dev
 
 
